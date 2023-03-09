@@ -12,6 +12,8 @@
 
 ## Block Transfers
 
+These results show the performance of the CoreAXI4 DMA (Fabric-DMA/F-DMA) block transferring data.
+
 ### Executing from L2-LIM
 
 ![l2-lim_block_transfer](images/CoreAXI4_DMA_Controller/L2_LIM.png)
@@ -46,6 +48,8 @@
 | Non-Cached DDR | Non-Cached DDR | 1.00               | 871              | 44%                   |
 
 ## Stream Transfers
+
+These results show the performance of the CoreAXI4 DMA (Fabric-DMA/F-DMA) stream transferring data.
 
 ### Executing from: L2-LIM
 
