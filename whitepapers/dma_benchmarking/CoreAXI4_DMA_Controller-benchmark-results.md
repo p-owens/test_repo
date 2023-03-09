@@ -18,10 +18,10 @@
 
 | Source:        | Destination    | Transfer Size (MB) | Peak Rate (MB/s) | % of Theoretical Rate |
 | :------------- | :------------- | :----------------- | :--------------- | :-------------------- |
-| Cached DDR     | Cached DDR     | 0.10               | 899              | 90%                   |
-| Cached DDR     | Non-Cached DDR | 0.12               | 907              | 91%                   |
-| Non-Cached DDR | Cached DDR     | 0.52               | 868              | 87%                   |
-| Non-Cached DDR | Non-Cached DDR | 1.00               | 871              | 87%                   |
+| Cached DDR     | Cached DDR     | 0.10               | 899              | 45%                   |
+| Cached DDR     | Non-Cached DDR | 0.12               | 907              | 45%                   |
+| Non-Cached DDR | Cached DDR     | 0.52               | 868              | 43%                   |
+| Non-Cached DDR | Non-Cached DDR | 1.00               | 871              | 43%                   |
 
 ### Executing from Scratchpad Memory
 
@@ -29,10 +29,10 @@
 
 | Source:        | Destination    | Transfer Size (MB) | Peak Rate (MB/s) | % of Theoretical Rate |
 | :------------- | :------------- | :----------------- | :--------------- | :-------------------- |
-| Cached DDR     | Cached DDR     | 0.52               | 784              | 78%                   |
-| Cached DDR     | Non-Cached DDR | 1.00               | 926              | 93%                   |
-| Non-Cached DDR | Cached DDR     | 1.00               | 871              | 87%                   |
-| Non-Cached DDR | Non-Cached DDR | 1.00               | 871              | 87%                   |
+| Cached DDR     | Cached DDR     | 0.52               | 784              | 39%                   |
+| Cached DDR     | Non-Cached DDR | 1.00               | 926              | 46%                   |
+| Non-Cached DDR | Cached DDR     | 1.00               | 871              | 44%                   |
+| Non-Cached DDR | Non-Cached DDR | 1.00               | 871              | 44%                   |
 
 ### Executing from DDR
 
@@ -40,10 +40,10 @@
 
 | Source:        | Destination    | Transfer Size (MB) | Peak Rate (MB/s) | % of Theoretical Rate |
 | :------------- | :------------- | :----------------- | :--------------- | :-------------------- |
-| Cached DDR     | Cached DDR     | 0.06               | 886              | 87%                   |
-| Cached DDR     | Non-Cached DDR | 0.01               | 904              | 90%                   |
-| Non-Cached DDR | Cached DDR     | 0.43               | 868              | 87%                   |
-| Non-Cached DDR | Non-Cached DDR | 1.00               | 871              | 87%                   |
+| Cached DDR     | Cached DDR     | 0.06               | 886              | 44%                   |
+| Cached DDR     | Non-Cached DDR | 0.01               | 904              | 45%                   |
+| Non-Cached DDR | Cached DDR     | 0.43               | 868              | 44%                   |
+| Non-Cached DDR | Non-Cached DDR | 1.00               | 871              | 44%                   |
 
 ## Stream Transfers
 
@@ -53,8 +53,8 @@
 
 | Source:          | Destination    | Transfer Size (MB) | Peak Rate (MB/s) | % of Theoretical Rate |
 | :--------------- | :------------- | :----------------- | :--------------- | :-------------------- |
-| Stream Generator | Cached DDR     | 0.52               | 931              | 93%                   |
-| Stream Generator | Non-Cached DDR | 1.00               | 926              | 93%                   |
+| Stream Generator | Cached DDR     | 0.52               | 931              | 47%                   |
+| Stream Generator | Non-Cached DDR | 1.00               | 926              | 46%                   |
 
 ### Executing from: Scratchpad Memory
 
@@ -62,8 +62,8 @@
 
 | Source:          | Destination    | Transfer Size (MB) | Peak Rate (MB/s) | % of Theoretical Rate |
 | :--------------- | :------------- | :----------------- | :--------------- | :-------------------- |
-| Stream Generator | Cached DDR     | 1.00               | 932              | 93%                   |
-| Stream Generator | Non-Cached DDR | 1.00               | 925              | 93%                   |
+| Stream Generator | Cached DDR     | 1.00               | 932              | 47%                   |
+| Stream Generator | Non-Cached DDR | 1.00               | 925              | 46%                   |
 
 ### Executing from: DDR
 
@@ -71,5 +71,5 @@
 
 | Source:          | Destination    | Transfer Size (MB) | Peak Rate (MB/s) | % of Theoretical Rate |
 | :--------------- | :------------- | :----------------- | :--------------- | :-------------------- |
-| Stream Generator | Cached DDR     | 0.46               | 940              | 94%                   |
-| Stream Generator | Non-Cached DDR | 1.00               | 936              | 94%                   |
+| Stream Generator | Cached DDR     | 0.46               | 940              | 47%                   |
+| Stream Generator | Non-Cached DDR | 1.00               | 936              | 47%                   |
